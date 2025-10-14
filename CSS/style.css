@@ -61,6 +61,11 @@ body {
     border: 2px solid var(--branco-principal)
 }
 
+.secundario__botao {
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+
 .secundario {
     align-items: center;
     margin: 0 10rem;
@@ -83,4 +88,23 @@ body {
 
 .descricao__texto {
     color: var(--cinza-secundario)
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulos {
+    font-size: 3rem;
+}
+
+.dispositivos__listas {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.lista__item {
+    font-size: 2rem;
+    color: var(--branco-principal);
 }
